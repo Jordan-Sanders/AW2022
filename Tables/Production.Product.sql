@@ -9,7 +9,7 @@
   [ReorderPoint] [smallint] NOT NULL,
   [StandardCost] [money] NOT NULL,
   [ListPrice] [money] NOT NULL,
-  [Size] [nvarchar](5) NULL,
+  [Size] [nvarchar](10) NULL,
   [SizeUnitMeasureCode] [nchar](3) NULL,
   [WeightUnitMeasureCode] [nchar](3) NULL,
   [Weight] [decimal](8, 2) NULL,
