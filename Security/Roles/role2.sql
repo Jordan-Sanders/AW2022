@@ -1,0 +1,2 @@
+﻿CREATE ROLE [role2]
+GO
