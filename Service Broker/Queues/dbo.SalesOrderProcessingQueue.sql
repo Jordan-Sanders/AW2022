@@ -1,0 +1,10 @@
+﻿CREATE QUEUE [dbo].[SalesOrderProcessingQueue] WITH STATUS = ON,
+RETENTION = OFF
+ON [PRIMARY]
+GO
+
+CREATE EVENT NOTIFICATION [EN_SalesOrderQueueDisabled]
+ON QUEUE [dbo].[SalesOrderProcessingQueue]
+FOR BROKER_QUEUE_DISABLED
+TO SERVICE 'SalesOrderProcessingService', '104BD1E5-5729-481C-818B-04C0E3216E68'
+GO

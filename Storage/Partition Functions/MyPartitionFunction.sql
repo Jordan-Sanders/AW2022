@@ -1,0 +1,3 @@
+﻿CREATE PARTITION FUNCTION [MyPartitionFunction] ([int])
+  AS RANGE FOR VALUES (1000, 2000, 3000)
+GO

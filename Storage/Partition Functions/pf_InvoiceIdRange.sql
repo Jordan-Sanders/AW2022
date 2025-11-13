@@ -1,0 +1,3 @@
+﻿CREATE PARTITION FUNCTION [pf_InvoiceIdRange] ([int])
+  AS RANGE FOR VALUES (1000, 2000, 3000)
+GO

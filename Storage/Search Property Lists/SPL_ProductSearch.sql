@@ -1,0 +1,2 @@
+﻿CREATE SEARCH PROPERTY LIST [SPL_ProductSearch];
+GO

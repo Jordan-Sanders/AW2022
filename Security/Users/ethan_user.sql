@@ -1,0 +1,3 @@
+﻿CREATE USER [ethan_user]
+  WITHOUT LOGIN
+GO

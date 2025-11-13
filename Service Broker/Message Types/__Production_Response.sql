@@ -1,0 +1,3 @@
+﻿CREATE MESSAGE TYPE [//Production/Response]
+VALIDATION = NONE
+GO

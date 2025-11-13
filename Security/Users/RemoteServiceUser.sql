@@ -1,0 +1,3 @@
+﻿CREATE USER [RemoteServiceUser]
+  WITHOUT LOGIN
+GO

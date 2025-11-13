@@ -1,0 +1,4 @@
+﻿CREATE QUEUE [dbo].[AW_EventQueue] WITH STATUS = ON,
+RETENTION = OFF
+ON [PRIMARY]
+GO

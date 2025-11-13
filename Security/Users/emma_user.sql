@@ -1,0 +1,3 @@
+﻿CREATE USER [emma_user]
+  WITHOUT LOGIN
+GO
