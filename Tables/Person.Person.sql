@@ -6,7 +6,7 @@
   [FirstName] [dbo].[Name] NOT NULL,
   [MiddleName] [dbo].[Name] NULL,
   [LastName] [dbo].[Name] NOT NULL,
-  [Suffix] [nvarchar](10) NULL,
+  [Suffix] [nvarchar](15) NULL,
   [EmailPromotion] [int] NOT NULL CONSTRAINT [DF_Person_EmailPromotion] DEFAULT (0),
   [AdditionalContactInfo] [xml] (CONTENT Person.AdditionalContactInfoSchemaCollection) NULL,
   [Demographics] [xml] (CONTENT Person.IndividualSurveySchemaCollection) NULL,
